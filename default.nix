@@ -3,12 +3,8 @@ let
   inherit (builtins) getFlake throw isNull getEnv;
 in
   args @ {nixpkgsPure ? null, ...}: let
-    oldOverlays = args.overlays or [];
 
-    newOverlays = import ./overlays;
-
-    newArgs = args // {overlays = oldOverlays ++ newOverlays;};
-
+    ## get the original nixpkgs
     nixpkgsImpure = getFlake "nixpkgs-base";
 
     nixpkgsPureChecked =
@@ -22,5 +18,16 @@ in
       if isImpure
       then nixpkgsImpure
       else nixpkgsPureChecked;
+
+
+    ## build the overlay list
+    oldOverlays = args.overlays or [];
+
+    newOverlays = import ./packages;
+
+
+    ## build the nixpkgs args
+    newArgs = args // {overlays = oldOverlays ++ newOverlays;};
+
   in
     (import nixpkgs) newArgs
