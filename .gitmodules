@@ -1,9 +1,0 @@
-[submodule "mk-icon-apple"]
-	path = packages/terminal/mk-icon-apple
-	url = git@github-juanma151:juanma151/mk-icon-apple.git
-[submodule "netbeans-macwrapp"]
-	path = packages/gui/macwrapps/netbeans-macwrapp
-	url = git@github-juanma151:juanma151/netbeans-macwrapp.git
-[submodule "media-downloader-macwrapp"]
-	path = packages/gui/macwrapps/media-downloader-macwrapp
-	url = git@github-juanma151:juanma151/media-downloader-macwrapp.git
