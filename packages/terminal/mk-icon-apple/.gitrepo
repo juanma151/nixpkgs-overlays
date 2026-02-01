@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github-juanma151:juanma151/mk-icon-apple.git
+	branch = main
+	commit = c98799f08f2780f78e5c13d2e171f80788d5e040
+	parent = e3dce85e676297b854522efbc4f88104ad168ffb
+	method = merge
+	cmdver = 0.4.9
