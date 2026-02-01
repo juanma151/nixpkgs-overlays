@@ -6,7 +6,7 @@
 [subrepo]
 	remote = git@github-juanma151:juanma151/media-downloader-macwrapp.git
 	branch = main
-	commit = e5d68a80717d70cc9c85c0653ada1562a3070897
-	parent = e3ad3fefc525f6d14ef8670b65da122fafe00783
+	commit = 44d355e1079b4b91c919cb3fd9f03b8adec355ac
+	parent = 971115fc7d802398e95ba0a76d4dbd992a2d63d9
 	method = merge
 	cmdver = 0.4.9
