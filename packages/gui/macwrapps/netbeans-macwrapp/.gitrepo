@@ -6,7 +6,7 @@
 [subrepo]
 	remote = git@github-juanma151:juanma151/netbeans-macwrapp.git
 	branch = main
-	commit = b3cca33afdadb47fb516f68a266f69889c7aa0b4
-	parent = 3c43546cf4cb945d92b5416e233ead2213c5decd
+	commit = d0012073f35a24bef00bea2b3c09899e19d46967
+	parent = 2a511e2c3b0c4c35dba9de6798c2fbf648abb44f
 	method = merge
 	cmdver = 0.4.9
