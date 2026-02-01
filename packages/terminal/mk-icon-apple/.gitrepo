@@ -6,7 +6,7 @@
 [subrepo]
 	remote = git@github-juanma151:juanma151/mk-icon-apple.git
 	branch = main
-	commit = c98799f08f2780f78e5c13d2e171f80788d5e040
-	parent = e3dce85e676297b854522efbc4f88104ad168ffb
+	commit = ebdfb81989e3b6c246638565fc95dcfb07b4344c
+	parent = 8da088d0f615ebc7848684d202b588f23efb8e06
 	method = merge
 	cmdver = 0.4.9
