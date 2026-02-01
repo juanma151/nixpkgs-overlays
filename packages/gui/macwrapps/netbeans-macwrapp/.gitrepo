@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github-juanma151:juanma151/netbeans-macwrapp.git
+	branch = main
+	commit = b3cca33afdadb47fb516f68a266f69889c7aa0b4
+	parent = 3c43546cf4cb945d92b5416e233ead2213c5decd
+	method = merge
+	cmdver = 0.4.9
