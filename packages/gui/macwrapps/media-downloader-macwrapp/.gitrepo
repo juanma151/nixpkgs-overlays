@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/ingydotnet/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github-juanma151:juanma151/media-downloader-macwrapp.git
+	branch = main
+	commit = e5d68a80717d70cc9c85c0653ada1562a3070897
+	parent = e3ad3fefc525f6d14ef8670b65da122fafe00783
+	method = merge
+	cmdver = 0.4.9
